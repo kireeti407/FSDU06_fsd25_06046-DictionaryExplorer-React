@@ -14,7 +14,7 @@ export default function App() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
 
-  // Fetch word details from Dictionary API
+
   const fetchWordDetails = async (word) => {
     if (!word.trim()) return;
     setLoading(true);
